@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2C47BCA22C038FAE004053F1 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47BCA12C038FAE004053F1 /* ImagePredictor.swift */; };
-		2C47BCA42C03903D004053F1 /* OCR.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2C47BCA32C03903D004053F1 /* OCR.mlmodel */; };
 		2C84360F2C01D8B80018312E /* ProfilePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C84360E2C01D8B80018312E /* ProfilePicker.swift */; };
 		2C8436192C01E5AF0018312E /* VNClassificationObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8436142C01E5AF0018312E /* VNClassificationObservation.swift */; };
 		2C84361A2C01E5AF0018312E /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8436152C01E5AF0018312E /* CGImagePropertyOrientation.swift */; };
@@ -23,7 +22,6 @@
 
 /* Begin PBXFileReference section */
 		2C47BCA12C038FAE004053F1 /* ImagePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
-		2C47BCA32C03903D004053F1 /* OCR.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = OCR.mlmodel; sourceTree = "<group>"; };
 		2C84360E2C01D8B80018312E /* ProfilePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicker.swift; sourceTree = "<group>"; };
 		2C8436142C01E5AF0018312E /* VNClassificationObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VNClassificationObservation.swift; sourceTree = "<group>"; };
 		2C8436152C01E5AF0018312E /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 		2C8436112C01E4320018312E /* AI */ = {
 			isa = PBXGroup;
 			children = (
-				2C47BCA32C03903D004053F1 /* OCR.mlmodel */,
 			);
 			path = AI;
 			sourceTree = "<group>";
@@ -217,7 +214,6 @@
 				2C84361A2C01E5AF0018312E /* CGImagePropertyOrientation.swift in Sources */,
 				2CD588CC2C0069DB007B37C1 /* ProfileImage.swift in Sources */,
 				2C8436192C01E5AF0018312E /* VNClassificationObservation.swift in Sources */,
-				2C47BCA42C03903D004053F1 /* OCR.mlmodel in Sources */,
 				2CD588B42C006092007B37C1 /* TextRecognitionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
